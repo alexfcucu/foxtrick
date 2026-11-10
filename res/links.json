@@ -532,5 +532,36 @@
 		},
 		"title": "HT Alchemy",
 		"img": "https://foxtrick-ng.github.io/foxtrick/linkicons/htalchemy.png"
+	},
+	"ht-ro": {
+		"title": "Romanian U21/NT Tracker",
+		"shorttitle": "HT-Ro.org",
+		"img": "https://foxtrick-ng.github.io/foxtrick/linkicons/romaniantracker.ico",
+		"playerdetaillink": {
+			"url": "https://beta.ht-ro.org/player/[playerid]",
+			"filters": ["nationality"]
+		},
+		"youthplayerdetaillink": {
+			"url": "https://beta.ht-ro.org/u17-player/[playerid]",
+			"filters": ["nationality"]
+		},
+		"teamlink": {
+			"url": "https://beta.ht-ro.org/search/by-team-id/[teamid]",
+			"filters": ["leagueid"]
+		},
+		"youthlink": {
+			"url": "https://beta.ht-ro.org/u17-search/by-team-id/[youthteamid]",
+			"filters": ["leagueid"]
+		},
+		"youthplayerlistlink": {
+			"url": "https://beta.ht-ro.org/u17-search/by-team-id/[youthteamid]",
+			"filters": ["leagueid"]
+		},
+		"trackernationalteamlink": {
+			"url": "https://beta.ht-ro.org",
+			"filters": ["leagueid"]
+		},
+		"leagueidranges": [[37, 37]],
+		"nationalityranges": [[36, 36]]
 	}
 }
